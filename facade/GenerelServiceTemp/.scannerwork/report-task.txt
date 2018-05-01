@@ -1,0 +1,6 @@
+projectKey=general:facade:project
+serverUrl=http://localhost:9000
+serverVersion=7.0.0.36138
+dashboardUrl=http://localhost:9000/dashboard/index/general:facade:project
+ceTaskId=AWL_Tie9UIpU60uPJxJL
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWL_Tie9UIpU60uPJxJL

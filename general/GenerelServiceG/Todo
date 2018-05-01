@@ -1,0 +1,4 @@
+For tuesday 5. desember
+- Fix Server class with chatrooms as objects for chat service
+- Fix a simple server and client tcp system
+    - https://systembash.com/a-simple-java-tcp-server-and-tcp-client/

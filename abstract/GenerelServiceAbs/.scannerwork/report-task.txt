@@ -1,0 +1,6 @@
+projectKey=general:abstract:project
+serverUrl=http://localhost:9000
+serverVersion=7.0.0.36138
+dashboardUrl=http://localhost:9000/dashboard/index/general:abstract:project
+ceTaskId=AWL_TvIFUIpU60uPJxJM
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWL_TvIFUIpU60uPJxJM
