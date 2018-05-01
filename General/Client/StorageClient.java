@@ -5,7 +5,7 @@ import java.util.List;
 
 class StorageClient implements Client {
     String name;
-    ServiceInterface service;
+    
     Console console;
 
 
@@ -29,7 +29,7 @@ class StorageClient implements Client {
         this.name = name;
         clientID = 0;
         console = System.console();
-        serverIP = "193.157.251.13";
+        serverIP = "";
         portNr = 1254;
     }
 

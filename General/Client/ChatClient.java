@@ -4,7 +4,6 @@ import java.util.List;
 
 class ChatClient implements Client {
     String name;
-    ServiceInterface service;
     Console console;
 
 
@@ -26,9 +25,9 @@ class ChatClient implements Client {
 
     public ChatClient(String name) {
         this.name = name;
-        clientID = 5;
+        clientID = 4;
         console = System.console();
-        serverIP = "193.157.251.13";
+        serverIP = "";
         portNr = 1254;
     }
 
@@ -53,6 +52,7 @@ class ChatClient implements Client {
 
                 } else if (msgFromUser.equals("6")) {
                     removeAsClient(toServer);
+                    openClient = false;
                     break;
 
                 } else{
