@@ -56,7 +56,7 @@ class DataObject implements Serializable {
      * @param objectOutputStream    Sending the object through the output stream that is given
      * @throws IOException          If something goes wrong with sending the object, IOException is thrown
      */
-    public
+
     public void sendObject (ObjectOutputStream objectOutputStream) throws IOException {
         objectOutputStream.writeObject(objectName);
         objectOutputStream.writeObject(object);

@@ -7,7 +7,7 @@ class StorageClient extends Client {
     Console console;
     boolean openClient;
 
-    String serverIP = "193.157.174.41";
+    String serverIP = "";
     int portNr = 1254;
     int clientID;
 

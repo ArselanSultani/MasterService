@@ -9,7 +9,7 @@ class ChatClient extends Client {
 
 
 
-    String serverIP = "193.157.187.9";
+    String serverIP = "";
     int portNr = 1254;
     int clientID;
 
@@ -19,7 +19,7 @@ class ChatClient extends Client {
 
 
     public ChatClient() {
-        clientID = 4;
+        clientID = 3;
         console = System.console();
     }
 
@@ -73,6 +73,7 @@ class ChatClient extends Client {
 
                     case "6":
                         removeAsClient(toServer, clientID);
+                        openClient=false;
                         break;
 
                     default:
