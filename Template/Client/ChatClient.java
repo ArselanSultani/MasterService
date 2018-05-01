@@ -36,11 +36,11 @@ class ChatClient extends Client {
 
     public ChatClient(String name) {
         this.name = name;
-        clientID = 4;
+        clientID = 0;
         openClient = false;
 
 
-        serverIP = "193.157.187.9";
+        serverIP = "";
         serverRoomNr = 0;
 
     }

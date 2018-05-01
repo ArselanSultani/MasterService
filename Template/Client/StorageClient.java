@@ -40,7 +40,7 @@ class StorageClient extends Client {
         openClient = false;
 
 
-        serverIP = "193.157.187.9";
+        serverIP = "";
         serverRoomNr = 0;
 
     }
